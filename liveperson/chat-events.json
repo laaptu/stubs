@@ -1,0 +1,63 @@
+{
+    "events": {
+        "link": [
+            {
+                "@href": "https://sy.convep.liveperson.net/api/account/70058190/chat/H895866041906813036-197a50b330714057822f413bca3b00e8K8399820/events",
+                "@rel": "self"
+            },
+            {
+                "@href": "https://sy.convep.liveperson.net/api/account/70058190/chat/H895866041906813036-197a50b330714057822f413bca3b00e8K8399820/events?from=6",
+                "@rel": "next"
+            }
+        ],
+        "event": [
+            {
+                "@id": "0",
+                "@type": "state",
+                "time": "2018-11-04T06:42:59.309-05:00",
+                "state": "waiting"
+            },
+            {
+                "@id": "1",
+                "@type": "line",
+                "time": "2018-11-04T06:42:59.309-05:00",
+                "textType": "plain",
+                "text": "Thank you for choosing to chat with us.  An agent will be with you shortly.",
+                "by": "info",
+                "source": "system",
+                "systemMessageId": "4",
+                "subType": "REGULAR",
+                "sequenceId": "1"
+            },
+            {
+                "@id": "2",
+                "@type": "state",
+                "time": "2018-11-04T06:43:00.119-05:00",
+                "state": "chatting"
+            },
+            {
+                "@id": "3",
+                "@type": "line",
+                "time": "2018-11-04T06:43:00.119-05:00",
+                "textType": "plain",
+                "text": "Hello, you're now chatting with messagingtest2.<br />How can I help you today?",
+                "by": "info",
+                "source": "system",
+                "systemMessageId": "3",
+                "subType": "REGULAR",
+                "sequenceId": "2"
+            },
+            {
+                "@id": "4",
+                "@type": "line",
+                "time": "2018-11-04T06:43:00.119-05:00",
+                "textType": "plain",
+                "by": "info",
+                "source": "system",
+                "systemMessageId": "4",
+                "subType": "REGULAR",
+                "sequenceId": "3"
+            }
+        ]
+    }
+}
